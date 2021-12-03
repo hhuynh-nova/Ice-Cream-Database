@@ -9,7 +9,7 @@ CREATE TABLE employee (
     phone           number(10),
     sex             char,
     salary          number(10,2),
-    super_name      char(9),
+    super_name      varchar(15),
     primary key (emp_ID)
 );
 
@@ -27,12 +27,10 @@ CREATE TABLE cust_order (
     orderno         number(5) not null,
     cust_ID         number(5) not null,
     emp_ID          number(3) not null,
---    prod_num         number(5) not null,
     product         varchar(100),
     price           decimal(5,2) not null,
     foreign key (cust_ID) references customer(cust_ID),
     foreign key (emp_ID) references employee(emp_ID)
---    foreign key (prod_num) references product(prod_num)
 );
 
 --DROP TABLE product CASCADE CONSTRAINTS;
