@@ -26,4 +26,4 @@ Marion Murzello:
 * Business Rules and Restrictions
 * ice-cream-data.sql
 * ice-cream-examples.sql
-* Presentation slides
+* Presentation slidess
