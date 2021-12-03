@@ -9,12 +9,15 @@ Lauren Dietzler:
 * Tentative ER Diagram
 * Business Rules and Restrictions
 * ice-cream-data.sql
+* ice-cream-examples.sql
 * Presentation slides
 
 Hoa Huynh:
 * Proposal Project Summary
+* Schema representation for the ER Diagram
 * ice-cream-schema.sql
 * ice-cream-data.sql
+* ice-cream-examples.sql
 * Presentation slides
 
 Marion Murzello:
@@ -22,4 +25,5 @@ Marion Murzello:
 * Tentative ER Diagram
 * Business Rules and Restrictions
 * ice-cream-data.sql
+* ice-cream-examples.sql
 * Presentation slides
